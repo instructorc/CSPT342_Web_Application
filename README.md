@@ -31,7 +31,7 @@ For this deliverable, you will demonstrate your understanding of modules and Jav
 ## Deliverable 3 (10 Points)
 For this deliverable, you will implement version control into your project folder.
 - Your remote repository will need to contain a minimum of 2 commits from each member or a minimum of 5 commits if completing the assignment individually.
-- You will need to add a create a .gitignore file that ignores the 
+- You will need to add a .gitignore file that ignores the node_modules folder
 A minimum of 2 commits from each member or a minimum of 5 commits if completing the assignment individually.
 
 

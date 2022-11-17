@@ -1,38 +1,36 @@
-# Assignment 1: Project Proposal and Repository Set-up
-
-You will complete three assignments that will culminate in developing a full-stack web application. For this first assignment, you propose what type of app you will build and provide documentation via the readme file on what type of application you will build.  Listed below are the deliverables you will need to complete to satisfy the requirements of the assignment. After this course, your application will consist of the following components listed below.
-
-1. Routing Framework using Express.js
-2. Authentication and Authorization using Passport.js or Auth0
-3. Create, Retrieve, Update and Delete (CRUD) Functionality
-4. Utilize SQLite Database for persistent data store
-5. Functional and User-friendly front-end interface
-6. Hosting that allows users to access the site via domain name
-
+# Assignment 2 - Express Routing + CRUD Operations using SQLite Database.
+For this second assignment, you will continue building out your application by implementing CRUD functionality using sqlite database.   
 
 ## Deliverable 1 (10 Points)
-For this deliverable, you will need to modify the readme file (make sure to save these instructions in another location) that you are currently reading and address the following items below using a variety of permissible markdown syntax.
+The project folder is configured with git and npm. You are welcome to scaffold your own folder structure or you can use the [express generator](https://expressjs.com/en/starter/generator.html) to quickly create an application skeleton. 
+- Git is initialized into the issued repository and the .gitignore file is configured to ignore the node_modules folder and any other file that is not needed in the remote repository.
+- The package.json file contains a list of all development/app dependencies
+- Application folder displays a hierarchal folder structure
 
-- Provide your name or the team's name
-- Name of the application
-- Description of application *Describe how someone will use your application
-- Describe the need and purpose of the application
-- Intended target audience
-- Identify the various pages your application will have and describe what users will be able to accomplish
-- Identify three goals of the application
-- Identify tools/software you will use to complete the project. If you are completing the application as part of a team, you will also need to identify collaboration tools.
+## Deliverable 2 - Routing and Middleware configuration (10 Points)
+For this deliverable, you will focus on implementing the necessary middleware needed to configure and route your application. Feel free to refer back to the [node.js](https://instructorc.github.io/site/slides/logic/nodejs.html) presentation for code samples and an explanation of concepts.
+- Middleware is implemented for static files such as images, pdf's, etc
+- Middleware is implemented for view templating engine
+- Middleware configured to parse JSON data and interpret form data.  Implement the following code below to meet requirement.
+``` javascript
+ // parse application/json
+app.use(express.json());
 
-## Deliverable 2 (10 Points)
-For this deliverable, you will demonstrate your understanding of modules and JavaScript.  Listed below are tasks you will need to complete to satisfy the requirements for this deliverable.
-- Initialize NPM into your project folder and go through the process of creating a package.json file 
-- Create an index.js file and demonstrate your ability to declare and call functions
-- Search through the NPM marketplace and demonstrate your ability to add and use an external module. 
+// For parsing application/x-www-form-urlencoded
+app.use(express.urlencoded({ extended: true }));
+```
 
-## Deliverable 3 (10 Points)
-For this deliverable, you will implement version control into your project folder.
-- Your remote repository will need to contain a minimum of 2 commits from each member or a minimum of 5 commits if completing the assignment individually.
-- You will need to add a .gitignore file that ignores the node_modules folder
-- A minimum of 2 commits from each member or a minimum of 5 commits if completing the assignment individually.
+- Application has a minimum of 5 routes implemented
+  1.  A minimum of three routes should accept data. Both the GET and POST methods will need to be represented in your routing functions
+  2.  A minimum of three routes should render data back to the client/user interface.
+ 
+ 
+
+## Deliverable 3 - Database implementation (10 Points)
+- Your application contains a file titled "database.js" and all of your SQL queries are listed and identified.
+- Your database.js file contains a minimum of 4 queries that represent the Create, Retrieve, Update and Delete (CRUD) functionality.
+- Database queries are represented within the routes and perform CRUD operations.
+- SQLite Database file is included within the project folder
 
 
 ## Submission Guidelines

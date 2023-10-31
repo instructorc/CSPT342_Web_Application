@@ -20,7 +20,7 @@ For this deliverable, you will need to modify the readme file and add responses 
 - Intended target audience
 - Identify the various pages your application will have and describe what users will be able to accomplish
 - Identify three goals of the application
-- Identify tools/software you will use to complete the project. If you are completing the application as part of a team, you will also need to identify collaboration tools.
+- Identify tools/software you will use to complete the project. 
 * I suggest using an online coding environment that will allow your team to work collaboratively and practice git commands.  A few are listed below.
    - [CodeSandbox.io](https://codesandbox.io/)
    - [Replit.com](https://replit.com/)

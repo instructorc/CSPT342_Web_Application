@@ -3,7 +3,7 @@
 You will complete three assignments that will culminate in developing a full-stack web application. For this first assignment, you propose what type of app you will build and provide documentation via the readme file on what type of application you will build.  Listed below are the deliverables you will need to complete to satisfy the requirements of the assignment. After this course, your application will consist of the following components listed below.
 
 1. Routing Framework using Express.js
-2. Demonstration and use of a REST API
+2. Demonstrate and utilize a REST API
 3. Create, Retrieve, Update and Delete (CRUD) Functionality
 4. Utilize SQLite Database for persistent data store
 5. Functional and User-friendly front-end interface

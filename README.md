@@ -33,6 +33,8 @@ For this deliverable, you will need to modify the readme file and add responses 
 * I suggest using an online coding environment that will allow your team to work collaboratively and practice git commands.  A few are listed below.
    - [CodeSandbox.io](https://codesandbox.io/)
    - [Replit.com](https://replit.com/)
+   - [GitHub Codespaces](https://github.com/features/codespaces)
+     - Click [here](https://docs.github.com/en/codespaces/developing-in-a-codespace/working-collaboratively-in-a-codespace) for information on using codespaces to collaborate with group members. 
 
 ### Deliverable 2 (10 Points)
 For this deliverable, you will demonstrate your understanding of modules and JavaScript.  Listed below are tasks you will need to complete to satisfy the requirements for this deliverable.

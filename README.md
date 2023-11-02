@@ -13,9 +13,9 @@ After this course, your application will consist of the following components lis
 5. Functional and User-friendly front-end interface
 6. Hosting that allows users to access the site via domain name
 
-**Assignment 1 consist of deliverables 1,2 and 3**
-**Assignment 2 consist of deliverables  4 and 5**
-**Assignment 3 consist of deliverables 6 and 7**
+**Assignment 1 consist of deliverables 1,2 and 3** <br>
+**Assignment 2 consist of deliverables  4 and 5** <br>
+**Assignment 3 consist of deliverables 6 and 7** <br>
 
 
 ## Assignment 1  - Project proposal

@@ -99,13 +99,13 @@ Heroku will need to be configured to host your site from the GitHub repository i
 Update the repository Readme file to include the URL from Heroku
 
 
-### Extra Credit – Implementing Authentication + Authorization using Passport.js or AuthO (7 Extra Credit Points)
+### Extra Credit – Implementing Authentication + Authorization using Passport.js or a third-party authentication tool (7 Extra Credit Points)
 
-Once requirements from deliverable 1 -7 are met and and your group would like an additional challenge then I would encourage you to consider implementing an authentication library called passport.js or implementing a hosted authentication service called AuthO. To successfully meet the requirements for extra credit, you will need to adhere to the following bullet points below. All the following requirements will need to be met to receive full credit. 
+Once requirements from deliverable 1 -7 are met and and your group would like an additional challenge then I would encourage you to consider implementing an authentication library called passport.js or implementing a third-party authentication service such as AuthO (https://auth0.com/) or Stytch (https://stytch.com/). To successfully meet the requirements for extra credit, you will need to adhere to the following bullet points below. All the following requirements will need to be met to receive full credit. 
 
 - Implementation of authentication should flow succinctly with the rest of your applicaiton and not be disjointed and unpurposeful.
 - Once an account is successfully created, the end user will be directed to a welcome screen connects account to a dashboard or user profile page.
-- Once a user logs out, the end user is redirected to the the home page
+- Once a user logs out, the end user is notified they are logged out of the application and redirected to another page.
   
 ### Submission Guidelines
 Your project folder will need to be submitted to the assigned GitHub repository provided to you by the instructor. In Sakai, you will need to submit the link to your repository by the due date and time listed in the write-up. Make sure you receive confirmation from Sakai that your assignment has been submitted.
